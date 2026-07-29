@@ -1,4 +1,4 @@
-                                                  # Simple-Linear-Regression-Task-3
+                               # Simple-Linear-Regression-Task-3
  ## project Title:
  Simple Linear Regression using Salary Dataset
 
