@@ -1,4 +1,4 @@
-                               # Simple-Linear-Regression-Task-3
+                      # Simple-Linear-Regression-Task-3
  ## project Title:
  Simple Linear Regression using Salary Dataset
 
@@ -39,6 +39,7 @@ This project demonstrates how to build a Simple Linear Regression model using th
 10. Visualize the regression line.
 11. Predict salary for a new experience value.
 12. Save the trained model.
+
 # Set Up Instructions
 
 - Python 3.10 
@@ -62,6 +63,16 @@ This project demonstrates how to build a Simple Linear Regression model using th
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - R² Score
+
+## Model Performance
+
+
+-The Simple Linear Regression model achieved an R² Score of 0.9024.
+
+-This means the model can explain approximately 90.24% of the variation in salary predictions based on years of experience. 
+-In simple terms, the model provides good salary predictions.
+
+-The model's Mean Absolute Error (MAE) is 6286.45, which means the predicted salary values may differ from the actual salary values by around 6286 units on average.
 
 ## Output
 The model predicts salary based on years of experience and displays a regression line showing the relationship between the variables.
