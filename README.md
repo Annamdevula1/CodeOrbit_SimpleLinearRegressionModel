@@ -89,3 +89,4 @@ The Simple Linear Regression model successfully predicts salary using years of e
 https://colab.research.google.com/drive/1_lKzQ8-efp4xdhBd6jWcsQWFlFYgi7iZ?usp=sharing
 
 ## Github link:
+https://github.com/Annamdevula1/Simple-Linear-Regression-Task-3.git
