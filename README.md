@@ -46,9 +46,9 @@ This project demonstrates how to build a Simple Linear Regression model using th
 
 ## Steps to Run the Project
 
-1. Download or clone the project.
+1. open the google collab.
 2. Place `Salary_Data.csv` in the project folder.
-3. Open the notebook in Google Colab or Jupyter Notebook.
+3. import libraries.   
 4. Run all cells from top to bottom.
 5. The model will:
    - Load the dataset
@@ -72,10 +72,12 @@ The model predicts salary based on years of experience and displays a regression
 
 
 ### Regression Graph
-![Regression Graph](screenshots/regression_graph.png)
+<img width="1920" height="1080" alt="Screenshot 2026-07-29 19 20 57" src="https://github.com/user-attachments/assets/b5f67d61-430d-47c9-aeb5-5d47eff85d3c" />
+
 
 ### Model Evaluation
-![Model Evaluation](screenshots/model_accuracy.png)
+<img width="1920" height="1080" alt="Screenshot 2026-07-29 19 21 16" src="https://github.com/user-attachments/assets/d1aeb28e-73b2-44be-831c-123f566a28e4" />
+
 
 ### Prediction Output
 ![Prediction Output](screenshots/prediction_output.png)
