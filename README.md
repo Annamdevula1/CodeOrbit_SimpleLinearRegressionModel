@@ -76,11 +76,12 @@ The model predicts salary based on years of experience and displays a regression
 
 
 ### Model Evaluation
-<img width="1920" height="1080" alt="Screenshot 2026-07-29 19 21 16" src="https://github.com/user-attachments/assets/d1aeb28e-73b2-44be-831c-123f566a28e4" />
+<img width="1920" height="1080" alt="Screenshot 2026-07-29 19 20 44" src="https://github.com/user-attachments/assets/701a6d1e-7a4b-4820-8db4-00129534441a" />
 
 
 ### Prediction Output
-![Prediction Output](screenshots/prediction_output.png)
+<img width="1920" height="1080" alt="Screenshot 2026-07-29 19 21 16" src="https://github.com/user-attachments/assets/2a2af16e-371a-4be9-826a-d266615cd1c8" />
+
 ## Conclusion
 The Simple Linear Regression model successfully predicts salary using years of experience. The visualization and evaluation metrics show the effectiveness of the model.
 
