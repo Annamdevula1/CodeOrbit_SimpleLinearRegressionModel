@@ -602,7 +602,7 @@ Years of Experience and Salary and predicts salary for new values.
 """)
 
 with st.expander("📘 Model Explanation"):
- st.write("""
+    st.write("""
 **Algorithm:** Linear Regression
 
 **Input Feature**
@@ -610,10 +610,14 @@ with st.expander("📘 Model Explanation"):
 
 **Target Variable**
 - Salary
-st.write("""
+
 **Evaluation Metrics**
-- R² Score
+- R2 Score
 - Mean Absolute Error (MAE)
+
+The model is simple, fast, and suitable for predicting salary
+from years of experience.
+""")
 
 The model is simple, fast and suitable for predicting salary
 from years of experience.
