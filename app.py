@@ -415,7 +415,7 @@ st.write("")
     # QUICK INFORMATION
     # ---------------------------
 
-    st.markdown("## 📌 Prediction Information")
+st.markdown("## 📌 Prediction Information")
 
     c1, c2, c3 = st.columns(3)
 
