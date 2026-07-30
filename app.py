@@ -378,24 +378,23 @@ elif page == "💼 Salary Prediction":
     with right:
 
         st.markdown("## 💰 Prediction Result")
-
         if predict:
 
-    with st.spinner("Predicting Salary... Please wait"):
+           with st.spinner("Predicting Salary... Please wait"):
 
-        input_data = pd.DataFrame(
-            [[years]],
-            columns=["YearsExperience"]
-        )
+            input_data = pd.DataFrame(
+              [[years]],
+              columns=["YearsExperience"]
+           )
 
-        salary = model.predict(input_data)[0]
+           salary = model.predict(input_data)[0]
 
-        st.success("✅ Salary Predicted Successfully!")
+          st.success("✅ Salary Predicted Successfully!")
 
-        st.metric(
-            label="Predicted Salary",
-            value=f"₹ {salary:,.2f}"
-        )
+          st.metric(
+             label="Predicted Salary",
+             value=f"₹ {salary:,.2f}"
+          )
 
         st.balloons()
 
@@ -409,6 +408,7 @@ elif page == "💼 Salary Prediction":
 • Model : **Linear Regression**
 """)
 
+        
 st.write("")
 
     # ---------------------------
