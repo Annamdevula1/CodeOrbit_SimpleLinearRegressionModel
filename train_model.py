@@ -24,7 +24,7 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 
 # Save the trained model
-joblib.dump(model, "salary_prediction_model.pkl")
+joblib.dump(model, "salary_model.pkl")
 
 print("Model trained successfully!")
 print("Model saved as salary_prediction_model.pkl")
