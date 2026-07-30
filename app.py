@@ -419,19 +419,19 @@ st.markdown("## 📌 Prediction Information")
 
 c1, c2, c3 = st.columns(3)
 
-    with c1:
+with c1:
         st.metric(
             "Algorithm",
             "Linear Regression"
         )
 
-    with c2:
+with c2:
         st.metric(
             "Input Feature",
             "YearsExperience"
         )
 
-    with c3:
+with c3:
         st.metric(
             "Output",
             "Salary"
