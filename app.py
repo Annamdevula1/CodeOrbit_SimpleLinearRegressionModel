@@ -432,19 +432,7 @@ elif page == "💼 Salary Prediction":
             "Salary"
         )
 
-    st.write("")
-
-    with st.expander("ℹ️ How is the salary predicted?"):
-
-        st.write("""
-The model predicts salary using **Simple Linear Regression**.
-
-### Steps:
-1. Enter the Years of Experience.
-2. Click **Predict Salary**.
-3. The trained model estimates the salary.
-4. The predicted salary is displayed instantly.
-
+    
 The prediction is based on the relationship learned from the Salary_Data.csv dataset.
 """)
 # -------------------------------------------------
