@@ -601,8 +601,8 @@ The Linear Regression model learns the relationship between
 Years of Experience and Salary and predicts salary for new values.
 """)
 
-    with st.expander("📘 Model Explanation"):
-        st.write("""
+with st.expander("📘 Model Explanation"):
+ st.write("""
 **Algorithm:** Linear Regression
 
 **Input Feature**
