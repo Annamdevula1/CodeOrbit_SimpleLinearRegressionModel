@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import pickle
+import joblib
 from sklearn.metrics import r2_score, mean_absolute_error
 from sklearn.model_selection import train_test_split
 
@@ -34,9 +34,8 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 # -------------------------------------------------
 # LOAD TRAINED MODEL
-# -------------------------------------------------
-with open("salary_model.pkl", "rb") as file:
- model = pickle.load(file)
+# ------------------------------------------------
+model = joblib.load("salary_model.pkl")
 
 # Predictions
 y_pred = model.predict(X_test)
