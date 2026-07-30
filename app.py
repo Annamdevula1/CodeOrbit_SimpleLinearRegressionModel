@@ -296,7 +296,7 @@ if page == "🏠 Home":
 
 ✔ Matplotlib
 
-✔ Pickle
+✔ joblib
 """)
 
     with c3:
@@ -432,7 +432,7 @@ elif page == "💼 Salary Prediction":
             "Salary"
         )
 
-    
+st.info(   
 The prediction is based on the relationship learned from the Salary_Data.csv dataset.
 """)
 # -------------------------------------------------
