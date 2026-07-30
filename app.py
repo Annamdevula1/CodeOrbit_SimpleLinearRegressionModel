@@ -443,7 +443,7 @@ elif page == "📈 Data Visualization":
 
     st.markdown("""
     <div class="title-box">
-        <h1>📈 Data Visualization</h1>
+        <h1> Data Visualization</h1>
         <p>Visual Analysis of Salary Dataset</p>
     </div>
     """, unsafe_allow_html=True)
