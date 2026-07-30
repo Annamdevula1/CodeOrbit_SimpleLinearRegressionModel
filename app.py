@@ -35,7 +35,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 # -------------------------------------------------
 # LOAD TRAINED MODEL
 # -------------------------------------------------
-with open("model.pkl", "rb") as file:
+with open("salary_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Predictions
