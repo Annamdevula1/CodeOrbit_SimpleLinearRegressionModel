@@ -368,7 +368,7 @@ elif page == "💼 Salary Prediction":
 
         predict = st.button(
             "🔮 Predict Salary",
-            use_container_width=True
+            width="stretch"
         )
 
     # ---------------------------
@@ -383,7 +383,12 @@ elif page == "💼 Salary Prediction":
 
             with st.spinner("Predicting Salary... Please wait"):
 
-                salary = model.predict([[years]])[0]
+                input_data = pd.DataFrame(
+                  [[years]],
+              columns=["YearsExperience"]
+ )
+
+salary = model.predict(input_data)[0]
 
             st.success("✅ Salary Predicted Successfully!")
 
@@ -433,7 +438,7 @@ elif page == "💼 Salary Prediction":
         )
 
 st.info(   
-The prediction is based on the relationship learned from the Salary_Data.csv dataset.
+  "The prediction is based on the relationship learned from the Salary_Data.csv dataset".
 """)
 # -------------------------------------------------
 # DATA VISUALIZATION PAGE
@@ -460,7 +465,12 @@ elif page == "📈 Data Visualization":
         key="graph_years"
     )
 
-    predicted_salary = model.predict([[years]])[0]
+    input_data = pd.DataFrame(
+    [[years]],
+    columns=["YearsExperience"]
+)
+
+predicted_salary = model.predict(input_data)[0]
 
     # ----------------------------
     # Scatter Plot + Regression Line
@@ -503,7 +513,7 @@ elif page == "📈 Data Visualization":
     ax.set_ylabel("Salary")
     ax.legend()
 
-    st.pyplot(fig, use_container_width=True)
+    st.pyplot(fig, width="stretch")
 
     st.success(
         f"Predicted Salary for {years:.1f} Years Experience = ₹ {predicted_salary:,.2f}"
@@ -519,7 +529,7 @@ elif page == "📈 Data Visualization":
 
     st.dataframe(
         df,
-        use_container_width=True,
+        width="stretch",
         height=250
     )
 
@@ -533,7 +543,7 @@ elif page == "📈 Data Visualization":
 
     st.dataframe(
         df.describe(),
-        use_container_width=True
+        width="stretch"
     )
 
     st.write("")
