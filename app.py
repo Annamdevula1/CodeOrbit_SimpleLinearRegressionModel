@@ -397,9 +397,9 @@ st.metric(
                 value=f"₹ {salary:,.2f}"
             )
 
-            st.balloons()
+st.balloons()
 
-            st.info(f"""
+st.info(f"""
 **Prediction Summary**
 
 • Years of Experience : **{years:.1f}**
