@@ -381,25 +381,25 @@ elif page == "💼 Salary Prediction":
 
         if predict:
 
-            with st.spinner("Predicting Salary... Please wait"):
+    with st.spinner("Predicting Salary... Please wait"):
 
-                input_data = pd.DataFrame(
-                  [[years]],
-              columns=["YearsExperience"]
- )
+        input_data = pd.DataFrame(
+            [[years]],
+            columns=["YearsExperience"]
+        )
 
-salary = model.predict(input_data)[0]
+        salary = model.predict(input_data)[0]
 
-st.success("✅ Salary Predicted Successfully!")
+        st.success("✅ Salary Predicted Successfully!")
 
-st.metric(
-                label="Predicted Salary",
-                value=f"₹ {salary:,.2f}"
-            )
+        st.metric(
+            label="Predicted Salary",
+            value=f"₹ {salary:,.2f}"
+        )
 
-st.balloons()
+        st.balloons()
 
-st.info(f"""
+        st.info(f"""
 **Prediction Summary**
 
 • Years of Experience : **{years:.1f}**
@@ -618,11 +618,6 @@ with st.expander("📘 Model Explanation"):
 The model is simple, fast, and suitable for predicting salary
 from years of experience.
 """)
-
-The model is simple, fast and suitable for predicting salary
-from years of experience.
-""")
-
 
 # -------------------------------------------------
 # DATASET STATISTICS
