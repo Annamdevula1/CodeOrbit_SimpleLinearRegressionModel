@@ -409,7 +409,7 @@ st.info(f"""
 • Model : **Linear Regression**
 """)
 
-    st.write("")
+st.write("")
 
     # ---------------------------
     # QUICK INFORMATION
