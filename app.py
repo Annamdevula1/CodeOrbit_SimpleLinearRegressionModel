@@ -392,7 +392,7 @@ salary = model.predict(input_data)[0]
 
 st.success("✅ Salary Predicted Successfully!")
 
-            st.metric(
+st.metric(
                 label="Predicted Salary",
                 value=f"₹ {salary:,.2f}"
             )
