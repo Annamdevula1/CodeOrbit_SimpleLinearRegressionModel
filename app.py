@@ -611,7 +611,7 @@ Years of Experience and Salary and predicts salary for new values.
 
 **Target Variable**
 - Salary
-
+st.write("""
 **Evaluation Metrics**
 - R² Score
 - Mean Absolute Error (MAE)
