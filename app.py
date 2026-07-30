@@ -603,8 +603,8 @@ Years of Experience and Salary and predicts salary for new values.
 - Salary
 
 **Evaluation Metrics**
- - R² Score
- - Mean Absolute Error (MAE)
+- R² Score
+- Mean Absolute Error (MAE)
 
 The model is simple, fast and suitable for predicting salary
 from years of experience.
