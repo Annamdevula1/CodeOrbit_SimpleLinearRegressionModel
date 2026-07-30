@@ -438,7 +438,7 @@ with c3:
  )
 st.info(   
   "The prediction is based on the relationship learned from the Salary_Data.csv dataset".
- )
+)
 
 # -------------------------------------------------
 # DATA VISUALIZATION PAGE
