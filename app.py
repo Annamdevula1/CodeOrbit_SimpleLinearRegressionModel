@@ -568,7 +568,7 @@ elif page == "🤖 Model Information":
 
     st.markdown("""
     <div class="title-box">
-        <h1>🤖 Model Information</h1>
+        <h1> Model Information</h1>
         <p>Performance of the Trained Machine Learning Model</p>
     </div>
     """, unsafe_allow_html=True)
