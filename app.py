@@ -58,7 +58,7 @@ st.sidebar.success("Salary Prediction using Linear Regression")
 # HOME PAGE
 # =====================================================
 if page == "🏠 Home":
-    st.image("
+    st.image("Banner image.jpeg", width="stretch")
     st.title("💼 Salary Prediction using Simple Linear Regression")
 
     st.write("""
