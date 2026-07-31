@@ -101,7 +101,7 @@ This application predicts salary based on
 
     st.subheader("📄 Dataset Preview")
 
-    st.dataframe(df.head(10), use_container_width=True)
+    st.dataframe(df.head(10), width="stretch")
 
     with st.expander("📖 Project Description"):
 
@@ -195,7 +195,7 @@ elif page == "💼 Salary Prediction":
         st.markdown("---")
 
         with st.expander("📄 Show Dataset"):
-            st.dataframe(df, width="stretch")
+             st.dataframe(df, width="stretch")
 # =====================================================
 # DATA VISUALIZATION PAGE
 # =====================================================
