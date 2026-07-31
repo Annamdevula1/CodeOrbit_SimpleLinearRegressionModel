@@ -58,7 +58,7 @@ st.sidebar.success("Salary Prediction using Linear Regression")
 # HOME PAGE
 # =====================================================
 if page == "🏠 Home":
-
+    st.image("
     st.title("💼 Salary Prediction using Simple Linear Regression")
 
     st.write("""
@@ -195,8 +195,8 @@ elif page == "💼 Salary Prediction":
         st.markdown("---")
 
         with st.expander("📄 Show Dataset"):
-            st.dataframe(df, use_container_width=True)
-    # =====================================================
+            st.dataframe(df, width="stretch")
+# =====================================================
 # DATA VISUALIZATION PAGE
 # =====================================================
 
@@ -255,7 +255,7 @@ elif page == "📈 Data Visualization":
 
     st.subheader("Dataset Preview")
 
-    st.dataframe(df, use_container_width=True)
+    st.dataframe(df,width="stretch")
 
 
 # =====================================================
@@ -377,7 +377,7 @@ Simple Linear Regression.
 
     st.markdown("---")
 
-    st.subheader("📌 Data Science Workflow")
+    st.subheader("📌  Workflow")
 
     st.write("""
 1️⃣ Problem Definition
@@ -460,7 +460,7 @@ elif page == "👨‍💻 Developer":
 
     st.subheader("Developer Details")
 
-    st.write("**Name :** Your Name")
+    st.write("**Name :**DURGA PRASAD ANNAMDEVULA")
 
     st.write("**Project :** Salary Prediction using Simple Linear Regression")
 
@@ -470,11 +470,11 @@ elif page == "👨‍💻 Developer":
 
     st.subheader("Connect With Me")
 
-    st.write("📧 Email : your_email@gmail.com")
+    st.write("📧 Email :durgaprasadannamdevula41@gmail.com")
 
-    st.write("🐙 GitHub : https://github.com/yourusername")
+    st.write("🐙 GitHub : https://github.com/Annamdevula1/Simple-Linear-Regression-Task-3.git")
 
-    st.write("💼 LinkedIn : https://linkedin.com/in/yourusername")
+    st.write("💼 LinkedIn :https://www.linkedin.com/in/durga-prasad-annamdevula-232538341")
 
     st.markdown("---")
 
