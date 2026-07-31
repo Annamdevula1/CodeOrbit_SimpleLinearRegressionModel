@@ -109,59 +109,6 @@ This application predicts salary based on
 This project uses **Simple Linear Regression**
 to predict salary based on years of experience.
 
-Workflow:
-st.subheader("📌  Workflow")
-
-st.write("""
-1️⃣ Problem Definition
-
-⬇️
-
-2️⃣ Data Collection
-
-⬇️
-
-3️⃣ Data Preprocessing
-
-⬇️
-
-4️⃣ Exploratory Data Analysis (EDA)
-
-⬇️
-
-5️⃣ Feature Selection
-
-⬇️
-
-6️⃣ Train-Test Split
-
-⬇️
-
-7️⃣ Model Building
-(Linear Regression)
-
-⬇️
-
-8️⃣ Model Evaluation
-(R² Score, MAE, MSE)
-
-⬇️
-
-9️⃣ Salary Prediction
-
-⬇️
-
-🔟 Data Visualization
-
-⬇️
-
-1️⃣1️⃣ Streamlit Web Application
-
-⬇️
-
-1️⃣2️⃣ Deployment
-(GitHub / Streamlit Cloud)
-""")
 """)
 # =====================================================
 # SALARY PREDICTION PAGE
