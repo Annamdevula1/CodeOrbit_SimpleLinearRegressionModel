@@ -132,7 +132,12 @@ elif page == "💼 Salary Prediction":
 
         with st.spinner("Predicting Salary..."):
 
-            salary = model.predict([[experience]])[0]
+            
+            input_data = pd.DataFrame({
+                  "YearsExperience": [experience]
+          })
+
+         salary = model.predict(input_data)[0]
 
         st.success("Prediction Completed Successfully!")
 
