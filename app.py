@@ -137,7 +137,7 @@ elif page == "💼 Salary Prediction":
                   "YearsExperience": [experience]
           })
 
-         salary = model.predict(input_data)[0]
+            salary = model.predict(input_data)[0]
 
         st.success("Prediction Completed Successfully!")
 
