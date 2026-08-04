@@ -477,7 +477,7 @@ elif page == "👨‍💻 Developer":
 
     st.write("📧 Email :durgaprasadannamdevula41@gmail.com")
 
-    st.write("🐙 GitHub : https://github.com/Annamdevula1/Simple-Linear-Regression-Task-3.git")
+    st.write("🐙 GitHub :  https://github.com/Annamdevula1/CodeOrbit_SimpleLinearRegressionModel.git")
 
     st.write("💼 LinkedIn :https://www.linkedin.com/in/durga-prasad-annamdevula-232538341")
 
