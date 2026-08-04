@@ -105,4 +105,4 @@ https://colab.research.google.com/drive/1_lKzQ8-efp4xdhBd6jWcsQWFlFYgi7iZ?usp=sh
 https://github.com/Annamdevula1/CodeOrbit_SimpleLinearRegressionModel.git
 
  **Live Demo**:
- https://simple-linear-regression-task-3-6is54fuduyedywqfceqmzj.streamlit.app/
+ https://codeorbitsimplelinearregressionmodel-38p6h3xwxqlghlwrbx4edt.streamlit.app/
